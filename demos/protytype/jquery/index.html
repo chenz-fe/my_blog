@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p>jQuery test 1</p>
+    <p>jQuery test 2</p>
+    <p>jQuery test 3</p>
+    <p>jQuery test 4</p>
+    <div id="box">
+      <p>jQuery test in div</p>
+    </div>
+    <script src="./my-jquery.js"></script>
+    <script>
+      let $p = $('p');
+      // 测试css方法
+      $p.css('fontSize', '40px');
+      let $box = $('#box');
+      $box.css('color', 'red');
+      // 测试html方法
+      alert('获取DIV的html:' + $box.html());
+
+      // 来扩展一个插件
+      $.fn.getNodeName = function () {
+        return this[0].nodeName;
+      }
+      alert($box.getNodeName()); // DIV
+    </script>
+  </body>
+</html>
