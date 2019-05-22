@@ -1,5 +1,3 @@
-### 原型的实际应用之实现一个jQuery
-
 我们平时使用jQuery大概是这样：
 
 ```js
@@ -86,7 +84,6 @@ $.fn.getNodeName = function () {
 // 测试
 alert($box.getNodeName()); // DIV
 ```
-
 
 
 小结：本篇文章总结了以下几个问题
