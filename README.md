@@ -46,6 +46,8 @@
 
 ## 微信公众号 & 小程序
 
+- [钉钉/支付宝小程序和微信小程序的区别](https://github.com/dora-zc/my_blog/issues/4)
+
 - 持续更新中...
 
 
