@@ -13,13 +13,15 @@
 
 ## Vue.js
 
-- [Vue 的访问属性代理如何实现？](https://github.com/dora-zc/my_blog/issues/2)
+- [Vue.js 是如何实现 MVVM 的？](https://github.com/dora-zc/my_blog/issues/5)
+
+- [Vue.js 的访问属性代理如何实现？](https://github.com/dora-zc/my_blog/issues/2)
 
 - [在 Vue.js 中，如何维护路由跳转记录？](https://github.com/dora-zc/my_blog/issues/1)
 
 - [Vue.js 小型商城项目](https://github.com/dora-zc/mini-vue-mall)
 
-- [200行代码实现一个迷你版 Vue](https://github.com/dora-zc/miniature-vue)
+- [200行代码实现一个迷你版 Vue.js](https://github.com/dora-zc/miniature-vue)
 
 - 持续更新中...
 
@@ -89,5 +91,3 @@
 ## CSS
 
 - 持续更新中...
-
-
